@@ -1,23 +1,31 @@
 
+
 h1{
  font-size: 200%;
  color: blue;
 }
+
+a {
+    text-decoration:none; 
+}
+
 nav {
   text-align: right;
   font-size: 100%;
 }
 
 nav ul {
-  margin-right: 30px;
+  
+  margin-right: 3%;
   padding: 0;
   display: flex;
   justify-content: flex-end;
+  
 }
 
 nav ul li {
   list-style: none;
-  width: 8%;
+  width: 10%;
 }
 
 
@@ -26,30 +34,31 @@ nav ul li {
 }
 
 .relative__img {
+position: relative;
 width: 50%;
-margin-top: 100px;
-margin-left: 750px;
+margin-top: 7%;
+margin-left: 50%;
 z-index: 10;
 }
 
-
-
 .absolute {
-  position: absolute;
+  position: fixed;
   top: 450px;
-  margin-top: 0px;
+  margin-top: 0%;
   left: 0%;
   z-index: -10;
   font-size: 70px;
 }
 
 .blue{
+  position: fixed;
   background: blue;
   width: 1150px;
   height: 200px;
   display: block;
-  
 }
+
+
 
 p{
   font-size: xx-large;
